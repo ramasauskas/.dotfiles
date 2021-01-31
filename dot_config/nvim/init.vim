@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plugged')
 Plug 'preservim/nerdtree'
 Plug 'ramasauskas/helios'
+Plug 'fatih/vim-go'
 call plug#end()
 
 " true colors
@@ -8,6 +9,9 @@ set termguicolors
 
 " custom theme
 colorscheme helios
+
+" folding
+set foldmethod=syntax
 
 " synax highlight
 syntax on
@@ -40,3 +44,6 @@ nnoremap <leader>d :Bdelete<CR>
 
 " vertical bar
 set colorcolumn=80
+
+" go stuff
+let g:go_fmt_command = "goimports"
