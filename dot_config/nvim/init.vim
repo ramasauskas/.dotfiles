@@ -10,9 +10,6 @@ set termguicolors
 " custom theme
 colorscheme helios
 
-" folding
-set foldmethod=syntax
-
 " synax highlight
 syntax on
 " custom indentations for langs
