@@ -42,5 +42,8 @@ nnoremap <leader>d :Bdelete<CR>
 " vertical bar
 set colorcolumn=80
 
+" open NERDTree
+nnoremap <leader>n :NERDTreeToggle<cr>
+
 " go stuff
 let g:go_fmt_command = "goimports"
