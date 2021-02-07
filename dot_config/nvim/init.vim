@@ -43,7 +43,7 @@ nnoremap <leader>d :Bdelete<CR>
 set colorcolumn=80
 
 " open NERDTree
-nnoremap <leader>n :NERDTreeToggle<cr>
+nnoremap <leader>N :NERDTreeToggle<cr>
 
 " go stuff
 let g:go_fmt_command = "goimports"
