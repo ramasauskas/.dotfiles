@@ -1,6 +1,10 @@
 # Don't print a new line at the start of the prompt
 add_newline = false
 
+[character]
+success_symbol = "[λ](bold #d1b897)"
+
+
 [git_branch]
 style = "bold white"
 
