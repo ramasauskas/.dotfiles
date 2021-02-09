@@ -8,3 +8,5 @@ alias vi=nvim
 alias vim=nvim
 export EDITOR=nvim
 eval "$(starship init zsh)"
+
+export PATH=$PATH:$(go env GOPATH)/bin

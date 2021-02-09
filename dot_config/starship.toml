@@ -2,8 +2,7 @@
 add_newline = false
 
 [character]
-success_symbol = "[λ](bold #d1b897)"
-
+success_symbol = "[λ](bold white)"
 
 [git_branch]
 style = "bold white"

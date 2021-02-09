@@ -47,3 +47,5 @@ nnoremap <leader>N :NERDTreeToggle<cr>
 
 " go stuff
 let g:go_fmt_command = "goimports"
+autocmd FileType go nmap <buffer> <leader>tf <Plug>(go-test-func)
+autocmd FileType go nmap <buffer> <leader>tt <Plug>(go-test)
