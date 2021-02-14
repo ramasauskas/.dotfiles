@@ -2,6 +2,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'preservim/nerdtree'
 Plug 'ramasauskas/helios'
 Plug 'fatih/vim-go'
+Plug 'lervag/vimtex'
 call plug#end()
 
 " true colors
@@ -49,3 +50,6 @@ nnoremap <leader>N :NERDTreeToggle<cr>
 let g:go_fmt_command = "goimports"
 autocmd FileType go nmap <buffer> <leader>tf <Plug>(go-test-func)
 autocmd FileType go nmap <buffer> <leader>tt <Plug>(go-test)
+
+" latex
+let g:vimtex_view_method = 'zathura'
