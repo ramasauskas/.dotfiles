@@ -21,6 +21,9 @@ set laststatus=2
 set statusline+=%f\ (%c)
 set ai
 
+" disable nvim cursor
+set guicursor=
+
 " show line numbers
 set number
 
