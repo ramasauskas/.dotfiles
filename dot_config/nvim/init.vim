@@ -21,8 +21,10 @@ set laststatus=2
 set statusline+=%f\ (%c)
 set ai
 
-" disable nvim cursor
-set guicursor=
+" set default tabs
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
 " show line numbers
 set number
